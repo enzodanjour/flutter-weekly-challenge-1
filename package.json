@@ -1,0 +1,12 @@
+{
+  "name": "flutterweeklychallenge1",
+  "version": "1.0.0",
+  "description": "POC",
+  "main": "index.js",
+  "repository": "git@github.com:enzodanjour/flutter-weekly-challenge-1.git",
+  "author": "enzo <enzo.danjour@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lcov2badge": "^0.1.2"
+  }
+}
