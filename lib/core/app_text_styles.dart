@@ -22,9 +22,15 @@ class AppTextStyles {
     fontSize: 22
   );
 
-  static final TextStyle ButtonTransparent = GoogleFonts.poppins(
+  static final TextStyle buttonWhite = GoogleFonts.poppins(
+    color: AppColors.pinkDark,
+    fontWeight: FontWeight.w300,
+    fontSize: 40
+  );
+
+  static final TextStyle buttonTransparent = GoogleFonts.poppins(
     color: AppColors.light,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w300,
     fontSize: 40
   );
 }
