@@ -39,31 +39,7 @@
 
 ---
 
-<h2 align="center">Layout 🎨</h2>
-
-   <p align="center">
-      The Layout was developed by <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, and you can access it on Figma:
-   
-   - <a href="https://www.figma.com/file/XaC3pgD1B0iLSWLTsUqxIe/DevQuiz-(Copy)?node-id=0%3A1">Mobile</a> 📱
-   </p>
-
----   
-
 <h2 align="center">Functionalities 🛠️</h2>
-
-   <p>
-   
-- 
-    -  ,
-    -  ,
-    -  ,
-    -  .
-
-- 
-
-- 
-  
-   </p>
 
 ---
 
@@ -75,12 +51,6 @@
     <br>
     <br>
    </p>
-
----
-
-<h2 align="center">Notion Files 📋</h2>
-
-- [Flutter Trail](https://www.notion.so/Trilha-Flutter-a306b8d8751b4f76a7a1fc8f29db6d65) 🚀
 
 ---
 
@@ -124,12 +94,12 @@
 <h2 align="center">License 📝</h2>
 
 <p align="center">
-   This repository is under MIT license. You can see the <a href="https://github.com/enzodanjour/dquiz/blob/main/LICENSE">LICENSE</a> file for more details. 😉
+   This repository is under MIT license. You can see the <a href="https://github.com/enzodanjour/flutter-weekly-challenge-1">LICENSE</a> file for more details. 😉
 </p>
 
    ---
 
-   >This project was developed with ❤️ by **[@Enzo Danjour](https://www.linkedin.com/in/enzo-danjour/)**, with the instructor **[@GabulDev](https://www.linkedin.com/in/gabuldev/)**, in #NextLevelWeek05 from **[Rocketseat](https://rocketseat.com.br/)**.<br>
+   >This project was developed with ❤️ by **[@Enzo Danjour](https://www.linkedin.com/in/enzo-danjour/)**.<br>
    If it helped you, give ⭐, contribute, it will help me too 😉
 
    </div>
