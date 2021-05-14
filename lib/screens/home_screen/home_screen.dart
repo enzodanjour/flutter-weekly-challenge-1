@@ -30,6 +30,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   RichText(
                     textAlign: TextAlign.left,
@@ -48,9 +49,9 @@ class HomePage extends StatelessWidget {
                         ]
                     )
                   ),
-                  SizedBox(
-                    width: MediaQuery.of(context).size.width/3,
-                  )
+                  // SizedBox(
+                  //   width: MediaQuery.of(context).size.width/3,
+                  // )
                 ],
               ),
               Center(
@@ -58,6 +59,38 @@ class HomePage extends StatelessWidget {
                   Icons.store_mall_directory_rounded,
                   color: AppColors.light,
                   size: 150,
+                ),
+              ),
+              Container(
+                width: MediaQuery.of(context).size.width/1.2,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(Radius.circular(50))
+                ),
+                child: TextButton(
+                  
+                  onPressed: (){}, 
+                  child: Text(
+                    'Sign Up',
+                    style: AppTextStyles.buttonWhite,
+                  )
+                ),
+              ),
+              Container(
+                width: MediaQuery.of(context).size.width/1.2,
+                decoration: BoxDecoration(
+                  color: Colors.transparent,
+                  borderRadius: BorderRadius.all(Radius.circular(50))
+                ),
+                child: TextButton(
+                  style: ButtonStyle(
+
+                  ),
+                  onPressed: (){}, 
+                  child: Text(
+                    'Sign Up',
+                    style: AppTextStyles.buttonTransparent,
+                  )
                 ),
               ),
             ],
