@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutterweeklychallenge1/core/app_colors.dart';
 import 'package:flutterweeklychallenge1/core/app_gradients.dart';
+import 'package:flutterweeklychallenge1/core/app_text_styles.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -24,24 +26,42 @@ class HomePage extends StatelessWidget {
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
-        body: Column(
-          children: [
-            RichText(
-              text: TextSpan(
-                text: 'Welcome to \n',
-                style: TextStyle(
-                  fontFamily: 'Poppins'
-                )
-              )
-            ),
-            Center(
-              child: Icon(
-                Icons.store_mall_directory_rounded,
-                color: Colors.white,
-                size: 150,
+        body: SafeArea(
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  RichText(
+                    textAlign: TextAlign.left,
+                    text: TextSpan(
+                      text: 'Welcome to \n',
+                        style: AppTextStyles.normalText,
+                        children: [
+                          TextSpan(
+                            text: 'ZEEBZ \n',
+                            style: AppTextStyles.title
+                          ),
+                          TextSpan(
+                            text: 'The shopping app you \n needed',
+                            style: AppTextStyles.descriptionText
+                          )
+                        ]
+                    )
+                  ),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width/3,
+                  )
+                ],
               ),
-            ),
-          ],
+              Center(
+                child: Icon(
+                  Icons.store_mall_directory_rounded,
+                  color: AppColors.light,
+                  size: 150,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
