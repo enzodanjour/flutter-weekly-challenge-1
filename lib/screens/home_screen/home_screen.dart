@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterweeklychallenge1/core/app_colors.dart';
 import 'package:flutterweeklychallenge1/core/app_gradients.dart';
 import 'package:flutterweeklychallenge1/core/app_text_styles.dart';
+import 'package:flutterweeklychallenge1/core/widgets/button_custom_rounded.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -61,37 +62,16 @@ class HomePage extends StatelessWidget {
                   size: 150,
                 ),
               ),
-              Container(
-                width: MediaQuery.of(context).size.width/1.2,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.all(Radius.circular(50))
-                ),
-                child: TextButton(
-                  
-                  onPressed: (){}, 
-                  child: Text(
-                    'Sign Up',
-                    style: AppTextStyles.buttonWhite,
-                  )
-                ),
+              ButtonCustomRounded.white(
+                text: 'Sign in',
+                onTap: (){},
               ),
-              Container(
-                width: MediaQuery.of(context).size.width/1.2,
-                decoration: BoxDecoration(
-                  color: Colors.transparent,
-                  borderRadius: BorderRadius.all(Radius.circular(50))
-                ),
-                child: TextButton(
-                  style: ButtonStyle(
-
-                  ),
-                  onPressed: (){}, 
-                  child: Text(
-                    'Sign Up',
-                    style: AppTextStyles.buttonTransparent,
-                  )
-                ),
+              SizedBox(
+                height: 10,
+              ),
+              ButtonCustomRounded.purple(
+                text: 'text', 
+                onTap: (){}
               ),
             ],
           ),
