@@ -33,9 +33,9 @@ class ButtonCustomRounded extends StatelessWidget {
         this.text = text;
 
   ButtonCustomRounded.purple({required text, required onTap,})
-      : this.backgroundColor = Color(0x00000000),
-        this.tapColor = Colors.white,
-        this.shadow = Color(0x00000000),
+      : this.backgroundColor = AppColors.transparent,
+        this.tapColor = AppColors.light!,
+        this.shadow = AppColors.transparent,
         this.onTap = onTap,
         this.textStyle = AppTextStyles.buttonTransparent,
         this.borderWhite = true,
