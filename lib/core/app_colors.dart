@@ -7,4 +7,5 @@ class AppColors {
   static final pinklight = Colors.pink[300];
   static final pinkDark = Colors.pink[500];
   static final pink = Colors.pink[400];
+  static final transparent = Color(0x00000000);
 }
